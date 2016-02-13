@@ -45,12 +45,16 @@ group :development do
   gem 'spring'
 end
 
-group :development, :test do
-    gem 'rspec-rails'
-end
 gem 'selenium-webdriver'
-gem 'capybara'
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+group :development, :test do
+  gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'capybara'
+end
+
+gem 'haml-rails'

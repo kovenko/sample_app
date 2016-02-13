@@ -1,0 +1,24 @@
+-provide(:title, 'About Us')
+
+%h1
+  About Us
+
+%p
+  Get help on the Ruby on Rails Tutorial at the
+  %a{:href => "http://railstutorial.org/help", :title => "Rails Tutorial help page"}
+    Rails Tutorial help page
+  \.
+
+%p
+  To get help on this sample app, see the
+  %a{:href => "http://railstutorial.org/book", :title => "Rails Tutorial book"}
+    Rails Tutorial book
+  \.
+
+%p
+  Get help on the Ruby on Rails Tutorial at the 
+  #{link_to 'Rails Tutorial help page', 'http://railstutorial.org/help'}.
+
+%p
+  To get help on this sample app, see the
+  #{link_to 'Rails Tutorial bock', 'http://railstutorial.org/bock'}.

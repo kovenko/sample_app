@@ -60,3 +60,6 @@ end
 
 gem 'pg'
 gem 'haml-rails'
+gem 'bootstrap-sass'
+#gem 'sass'
+#gem "twitter-bootstrap-rails"

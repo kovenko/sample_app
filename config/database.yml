@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 #
 
-development:
+adevelopment:
   adapter: postgresql
   encoding: utf8
   database: kvb
@@ -13,13 +13,22 @@ development:
   password: v6520
   host: localhost
 
-production:
+aproduction:
   adapter: postgresql
   encoding: utf8
   database: kvb
   username: kvb
   password: v6520
   host: localhost
+
+
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+
+production:
+  adapter: sqlite3
+  database: db/production.sqlite3
 
 
 # Warning: The database defined as "test" will be erased and

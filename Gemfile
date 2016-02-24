@@ -61,5 +61,7 @@ end
 gem 'pg'
 gem 'haml-rails'
 gem 'bootstrap-sass'
+gem 'bcrypt'
+
 #gem 'sass'
 #gem "twitter-bootstrap-rails"

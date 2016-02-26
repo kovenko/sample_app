@@ -65,3 +65,9 @@ gem 'bcrypt'
 
 #gem 'sass'
 #gem "twitter-bootstrap-rails"
+
+gem 'bootstrap-generators'
+
+group :test do
+    gem 'factory_girl_rails'
+end
